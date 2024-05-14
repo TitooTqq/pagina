@@ -1,0 +1,108 @@
+
+
+#divPrincipal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cadetblue;
+    height: 120px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-style: double;
+}
+#divPrincipal h1{
+    color: black;
+}
+
+
+#sideMenu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: cadetblue;
+    transition: left 0.3s ease;
+}
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sideMenu ul li {
+    padding: 10px;
+}
+
+#sideMenu ul li a {
+    color: black;
+    text-decoration: none;
+}
+#separa1{
+    height: 100px;
+}
+#separa2{
+    height: 100px;
+}
+#separa3{
+    height: 100px;
+}
+#separa4{
+    height: 100px;
+}
+
+#openMenu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: cadetblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.user-options a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-20px);
+    }
+}

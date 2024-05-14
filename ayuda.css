@@ -1,0 +1,182 @@
+.jola{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cola{
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-top: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cola h1{
+    color: #000;
+    text-align: center;
+}
+
+.help-section {
+    margin-bottom: 30px;
+}
+
+.cola h2 {
+    color: #222;
+}
+
+.cola p {
+    color: #111;
+    line-height: 1.5;
+}
+
+.cola ol, ul {
+    color: #111;
+    padding-left: 20px;
+}
+
+.cola li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+    }
+}
+
+
+#divPrincipal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #008b8b;
+    height: 120px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-style: double;
+}
+#divPrincipal h1{
+    color: #000;
+}
+
+
+#sideMenu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #008b8b;
+    transition: left 0.3s ease;
+    }
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Utilizando flexbox */
+    flex-direction: column; /* Alinear los elementos verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+
+#sideMenu ul li {
+    padding: 10px;
+}
+
+#sideMenu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+#separa1{
+    height: 100px;
+}
+#separa2{
+    height: 100px;
+}
+#separa3{
+    height: 100px;
+}
+#separa4{
+    height: 100px;
+}
+
+#openMenu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #008b8b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+}
+
+#footer {
+    background-color: #008b8b;
+    color: #000;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.user-options a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+
+
+#logos {
+  width: 100%; /* Ajusta el ancho del carrusel */
+  overflow: hidden; /* Oculta el contenido que excede el ancho */
+}
+
+#logos img {
+  width: 100%; /* Ajusta el ancho de las imágenes */
+  display: block; /* Asegura que las imágenes se muestren como bloques */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+
+#logoCecy img{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+}

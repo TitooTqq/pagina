@@ -1,0 +1,364 @@
+/* Estilos para el contenedor principal */
+#divPrincipal{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #008b8b;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-style: double;
+}
+
+#divPrincipal h1{
+    color: #000;
+    z-index: 2;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Estilos para el logo de Cecy */
+#logoCecy img{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+}
+
+/* Estilos para el menú lateral */
+#sideMenu {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: -350px;
+    width: 250px;
+    height: 100%;
+    background-color: #008b8b;
+    transition: left 0.3s ease;
+}
+
+#sideMenu ul {
+    z-index: 2;
+    list-style: none;
+    padding: 0;
+}
+
+#sideMenu ul li {
+    z-index: 2;
+    padding: 10px;
+}
+#sideMenu ul li:hover {
+    background-color: #555;
+}
+
+
+#sideMenu ul li a {
+    z-index: 2;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Separadores en el menú lateral */
+#separa1{
+    height: 130px;
+}
+#separa2{
+    height: 130px;
+}
+#separa3{
+    height: 130px;
+}
+#separa4{
+    height: 130px;
+}
+
+/* Estilos para el botón de abrir el menú */
+#openMenu {
+    z-index: 2;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    background-color: #008b8b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom-color: #000;
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#555;
+}
+
+/* Estilos para los botones en la sección central */
+.buttons {
+    display: flex; /* Mostrar los botones en una fila */
+    margin-bottom: 20px; /* Espacio entre los botones y el contenido */
+    padding-top: 200px;    
+}
+
+.buttons button {
+    width: 200px; /* Ancho fijo para los botones */
+    background-color: #008b8b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 65px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Agregar transición suave */
+}
+
+.buttons button:hover {
+    background-color: #357d97; /* Cambia el color al pasar el mouse */
+    color: #ffffff; /* Cambia el color del texto al pasar el mouse */
+}
+
+/* Estilos para la sección central */
+#divCentral{
+    
+}
+
+/* Estilos para las secciones de información */
+.info {
+    display: none;
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+#footer {
+    background-color: #008b8b;
+    color: #000;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.user-options a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la galería de imágenes */
+.gallery-container {
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  width: 550px;
+}
+
+.gallery-carousel {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.gallery-carousel img {
+    max-width: 100%;
+    height: auto; 
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#divPrincipal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #008b8b;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-style: double;
+}
+#divPrincipal h1{
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#logoCecy img{
+    position: fixed;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+
+}
+#sideMenu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #008b8b;
+    transition: left 0.3s ease;
+    }
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Utilizando flexbox */
+    flex-direction: column; /* Alinear los elementos verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+
+#sideMenu ul li {
+    padding: 10px;
+}
+
+#sideMenu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+#separa1{
+    height: 130px;
+}
+#separa2{
+    height: 130px;
+}
+#separa3{
+    height: 130px;
+}
+#separa4{
+    height: 130px;
+}
+
+#openMenu {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    background-color: #008b8b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#openMenu:hover{
+    background-color: #357d97;
+    color: #ffffff;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#divContexto{
+    text-align: center;
+}
+
+.menu {
+    
+    display: none;
+}
+
+#footer {
+    background-color: #008b8b;
+    color: #000;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.user-options a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+#divInfo{
+    text-align: center;
+    padding: 150px;
+}
+
+
+
+
+
+
+.info-box {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+    max-width: 800px;
+}
+
+#logos {
+  width: 100%; /* Ajusta el ancho del carrusel */
+  overflow: hidden; /* Oculta el contenido que excede el ancho */
+}
+
+#logos img {
+  width: 100%; /* Ajusta el ancho de las imágenes */
+  display: block; /* Asegura que las imágenes se muestren como bloques */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+
+#logoCecy img{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+}

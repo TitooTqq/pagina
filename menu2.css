@@ -1,0 +1,242 @@
+#divPrincipal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #008b8b;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-style: double;
+}
+
+#divPrincipal h1 {
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#logoCecy img {
+    position: fixed;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+}
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Alinear el contenido a la izquierda */
+}
+
+#sideMenu ul li {
+    padding: 10px;
+}
+
+#sideMenu ul li:hover {
+    background-color: #555;
+}
+
+#sideMenu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#sideMenu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #008b8b;
+    transition: left 0.3s ease;
+}
+
+#separa1 {
+    height: 130px;
+}
+
+#separa2 {
+    height: 130px;
+}
+
+#separa3 {
+    height: 130px;
+}
+
+#separa4 {
+    height: 130px;
+}
+
+#openMenu {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    background-color: #008b8b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom-color: #000;
+}
+
+#openMenu:hover {
+    background-color: #357d97;
+    color: #ffffff;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between; /* Alinear los elementos verticalmente */
+   background-color:#555;
+}
+
+#divContexto {
+    text-align: center;
+}
+
+.menu {
+    display: none;
+}
+
+#footer {
+    background-color: #008b8b;
+    color: #000;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.user-options a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#divInfo {
+    text-align: center;
+    padding: 150px;
+}
+
+.content {
+    max-width: 600px;
+    margin: 150px auto; /* Centrar horizontalmente */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+#logos {
+  width: 100%; /* Ajusta el ancho del carrusel */
+  overflow: hidden; /* Oculta el contenido que excede el ancho */
+}
+
+#logos img {
+  width: 100%; /* Ajusta el ancho de las imágenes */
+  display: block; /* Asegura que las imágenes se muestren como bloques */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+#logoCecy img{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+}
+
+

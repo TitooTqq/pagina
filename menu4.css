@@ -1,0 +1,291 @@
+
+
+
+
+
+
+
+
+
+
+#divPrincipal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #008b8b;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-style: double;
+}
+#divPrincipal h1{
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#logoCecy img{
+    position: fixed;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+
+}
+#sideMenu {
+    position: fixed;
+    top: 0;
+    left: -350px;
+    width: 250px;
+    height: 100%;
+    background-color: #008b8b;
+    transition: left 0.3s ease;
+    }
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Utilizando flexbox */
+    flex-direction: column; /* Alinear los elementos verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+#sideMenu ul li {
+    padding: 10px;
+}
+
+#sideMenu ul li a {
+    color: #008b8b;
+    text-decoration: none;
+}
+#separa1{
+    height: 130px;
+}
+#separa2{
+    height: 130px;
+}
+#separa3{
+    height: 130px;
+}
+#separa4{
+    height: 130px;
+}
+
+#openMenu {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    background-color: #008b8b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#divContexto{
+    text-align: center;
+    padding: 200px;
+    padding-top: 200px;
+}
+/* Estilos para centrar los botones y el contenido */
+/* Estilos para centrar los botones y el contenido */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.buttons {
+  display: flex; /* Mostrar los botones en una fila */
+  margin-bottom: 20px; /* Espacio entre los botones y el contenido */
+}
+
+button {
+  margin: 0 10px; /* Espacio entre los botones */
+}
+
+.info {
+    display: none;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+/* Estilo para mostrar la primera área de información al inicio */
+#info1 {
+  display: block;
+}
+
+
+#footer {
+    background-color: #008b8b;
+    color: #000;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.user-options a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+body {
+    background-color:#555;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.teacher {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #333; /* Cambio a tono más oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teacher img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.teacher h2 {
+    color: #fff;
+}
+
+.teacher p {
+    color: #ccc; /* Cambio a tono más claro */
+}
+
+#menu {
+    list-style-type: none;
+    margin: 80;
+    padding: 0;
+    display: inline;
+}
+.informa h1{
+    padding-top: 150px;
+    color: black;
+}
+
+#divimg {
+    width: 1px;
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+#divimg img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#sideMenu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #008b8b; /* Cambio a tono más oscuro */
+    transition: right 0.3s ease;
+}
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sideMenu ul li {
+    padding: 10px;
+}
+
+#sideMenu ul li a {
+    color: #000; /* Cambio a tono más claro */
+    text-decoration: none;
+}
+
+.open-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#myFooter {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+#logos {
+  width: 100%; /* Ajusta el ancho del carrusel */
+  overflow: hidden; /* Oculta el contenido que excede el ancho */
+}
+
+#logos img {
+  width: 100%; /* Ajusta el ancho de las imágenes */
+  display: block; /* Asegura que las imágenes se muestren como bloques */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+
+
+#logoCecy img{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 1200px;
+    width: 120px;
+    height: 120px;
+}
