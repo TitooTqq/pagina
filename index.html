@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Establecer el icono de la pestaña -->
+    <link rel="icon" href="cecyte.png" type="image/x-icon">
+    <!-- Definir la codificación de caracteres y la escala del viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Programacion Cecytem</title>
+    <!-- Enlace al archivo CSS para estilos -->
+    <link rel="stylesheet" href="stylesProg.css">
+    <link rel="stylesheet" href="stylecarrusel.css">
+
+</head>
+
+<body>
+      <!-- Contenedor principal -->
+      <div id="divPrincipal">
+
+          <h1>PROGRAMACIÓN</h1>
+
+      </div>
+    <div id="logoCecy">
+        <div id="logos">
+            <img src="cecyte2.png" alt="logo1">
+            <img src="logop.png" alt="logo1">
+        </div>
+    </div>
+      <button id="openMenu"><h2>Menú</h2></button>
+  <!-- Menú lateral -->
+    <nav id="sideMenu">
+        <ul>
+          <!-- Opciones del menú -->
+          <div id="separa1">    
+          <li><a href="index.html"><h1>Inicio</h1></a></li>
+        </div>
+        <div id="separa2">    
+          <li><a href="menu2.html"><h1>Contactanos</h1></a></li>
+        </div>
+        <div id="separa3">    
+          <li><a href="menu3.html"><h1>Carrera</h1></a></li>
+        </div>   
+        <div id="separa4">    
+          <li><a href="menu4.html"><h1>Información</h1></a></li>
+        </div>
+        </ul>
+      </nav>
+    
+
+    <!-- Aquí van los botones -->
+    <div id="divCentral">
+            <div class="buttons">
+              <!-- Botones del menú -->
+              <button onclick="mostrarInfo('info1')">Ventajas del CECyTE</button>
+              <button onclick="mostrarInfo('info2')">Plan de Estudio</button>
+              <button onclick="mostrarInfo('info3')">Modelo Educativo</button>
+              <button onclick="mostrarInfo('info4')">Perfil de Egreso</button>
+                
+            </div>
+     
+
+        
+        <!-- Área para mostrar la información -->
+        <div id="info1" class="info">
+            
+            <h2>Ventajas del CECyTE</h2>
+            
+            <div class="info-box">
+                <div class="box">
+                    <p>1.-Enfoque en Ciencia y Tecnología: El CECyTE se centra en áreas como la ciencia, la tecnología, la ingeniería y las matemáticas (STEM, por sus siglas en inglés), lo que brinda una educación orientada hacia campos de alta demanda laboral.
+                    <br>
+                    <br>
+                    2.-Programas Educativos Actualizados: Los programas de estudio se diseñan para estar alineados con las tendencias actuales del mercado laboral y las necesidades de la sociedad, lo que garantiza que los estudiantes adquieran habilidades relevantes.
+                    <br>
+                    <br>
+                    3.-Práctica Profesional: Muchos centros CECyTE ofrecen oportunidades para que los estudiantes realicen prácticas profesionales en empresas locales, lo que les proporciona experiencia práctica y les permite establecer contactos en el mundo laboral.
+                    <br>
+                    <br>    
+                    4.-Infraestructura y Recursos: Por lo general, el CECyTE cuenta con instalaciones modernas, laboratorios bien equipados y recursos tecnológicos que facilitan el aprendizaje y la experimentación en áreas como la informática, la electrónica, la mecánica, entre otras.
+                    <br>
+                    <br>    
+                    5.-Flexibilidad Académica: Además de las materias fundamentales, el CECyTE ofrece opciones para que los estudiantes elijan áreas de especialización que se ajusten a sus intereses y habilidades, lo que les permite personalizar su educación.
+                    <br>
+                    <br>    
+                    6.-Certificaciones y Reconocimiento: Algunos programas del CECyTE están diseñados para preparar a los estudiantes para obtener certificaciones reconocidas en su campo, lo que puede aumentar sus oportunidades de empleo al graduarse.
+                    <br>
+                    <br>    
+                    7.-Desarrollo de Habilidades Transversales: Además de conocimientos técnicos, el CECyTE también se enfoca en el desarrollo de habilidades como el trabajo en equipo, la resolución de problemas y la comunicación efectiva, competencias valiosas en cualquier entorno laboral.
+                    <br>
+                    <br>    
+                    8.-Oportunidades de Continuidad Educativa: Muchos estudiantes del CECyTE optan por continuar sus estudios en instituciones de educación superior, y el colegio suele tener convenios con universidades para facilitar este proceso de transición..
+                    </p>
+
+                </div>
+            </div>
+            
+            <div class="gallery-container">
+                 <h2>Estas son algunas imágenes de la materia en el plantel</h2>
+                <div class="gallery-carousel">
+                    <img src="img1.jpg" alt="Image 1">
+                    <img src="img2.jpg" alt="Image 2">
+                    <img src="img3.jpg" alt="Image 3">
+                    <img src="img4.jpg" alt="Image 4">
+                    <img src="img5.jpg" alt="Image 5">
+                    <img src="img6.jpg" alt="Image 6">
+                </div>
+            </div>
+        </div>
+
+        <div id="info2" class="info">
+            <h2>Plan de Estudio</h2>
+            <img src="PlanEtudio.png" alt="ProgramaDeEstudio">
+            <br>
+            <br>
+            <h2>Este es el plan de estudio que lleva la escuela.</h2>
+            <br>
+            <br>
+             <div id="divPlanEstudio">
+                 <h2>Aquí puedes ver el plan de estudio completo de la escuela.</h2>
+                <iframe src="PlanDeEst.pdf" width="800px" height="450px"></iframe>
+            </div>
+
+            
+        </div>
+
+        <div id="info3" class="info">
+            <h2>Modelo Educativo</h2>
+            <div class="info-box">
+                <div class="box">
+                  <p>
+                El Colegio de Estudios Científicos y Tecnológicos del Estado (CECyTE) en México sigue un modelo educativo centrado en la formación integral de los estudiantes, con un enfoque especial en áreas de ciencia, tecnología, ingeniería y matemáticas (STEM). Aunque los detalles pueden variar entre los diferentes planteles del CECyTE, aquí te proporciono un resumen general de su modelo educativo:
+            <br>    
+            <br>    
+
+                1. **Enfoque en STEM**: El CECyTE prioriza la enseñanza y el aprendizaje en áreas relacionadas con la ciencia, la tecnología, la ingeniería y las matemáticas, con el objetivo de preparar a los estudiantes para carreras en campos de alta demanda laboral y contribuir al desarrollo tecnológico y científico del país.
+            <br>    
+            <br>    
+
+                2. **Currículo Integral**: El plan de estudios del CECyTE incluye una combinación de materias básicas, como matemáticas, ciencias, español e inglés, junto con asignaturas específicas relacionadas con tecnología, informática, electrónica, mecánica y otras disciplinas afines.
+            <br>    
+            <br>    
+
+                3. **Educación Práctica**: Se fomenta la participación de los estudiantes en actividades prácticas, proyectos de investigación, prácticas profesionales y otras experiencias que les permitan aplicar los conocimientos teóricos adquiridos en el aula a situaciones reales y desarrollar habilidades prácticas relevantes para su futura carrera.
+            <br>    
+            <br>    
+
+                4. **Uso de Tecnología Educativa**: El CECyTE integra tecnologías educativas en el proceso de enseñanza y aprendizaje, como el uso de computadoras, software especializado, laboratorios tecnológicos y recursos en línea, para mejorar la experiencia educativa y facilitar el acceso a la información y herramientas necesarias.
+            <br>    
+            <br>    
+
+                5. **Desarrollo de Habilidades Transversales**: Además de conocimientos técnicos, se enfatiza el desarrollo de habilidades como el trabajo en equipo, la comunicación efectiva, el pensamiento crítico, la resolución de problemas y la creatividad, que son fundamentales para el éxito en cualquier campo profesional.
+            <br>    
+            <br>    
+
+                6. **Evaluación Continua y Retroalimentación**: Se utilizan diversas formas de evaluación, tanto formativas como sumativas, para medir el progreso de los estudiantes y proporcionar retroalimentación constante que les permita mejorar su desempeño académico y personal.
+            <br>    
+            <br>    
+
+                7. **Oportunidades de Continuidad Educativa y Profesional**: Se brindan apoyos y orientación para que los estudiantes puedan continuar sus estudios en instituciones de educación superior, así como para ingresar al mercado laboral con las habilidades y competencias necesarias para su inserción profesional.
+            <br>    
+            <br>    
+            <br>    
+
+                En resumen, el modelo educativo del CECyTE se centra en proporcionar una educación integral y orientada hacia la práctica en áreas de ciencia y tecnología, con el objetivo de preparar a los estudiantes para ser ciudadanos competentes y contribuir al desarrollo socioeconómico del país.
+            </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="info4" class="info">
+          <h2>Perfil de Egreso</h2>
+            <div class="info-box">
+                <div class="box">
+                  <p>Al ser escuela técnica el alumno al graduarse de el CECyTEM tendrá la capacidad de salir y entrar al mundo laboral. Gran demanda laboral: Con el constante avance de la tecnología, hay una alta demanda de ingenieros en sistemas en una variedad de industrias, desde la tecnología hasta la salud, la banca y más.
+                <br>
+                <br>
+                Variedad de opciones de carrera: Los ingenieros en sistemas pueden trabajar en una amplia gama de campos, incluyendo desarrollo de software, seguridad informática, análisis de datos, inteligencia artificial, entre otros. Esto brinda la flexibilidad de explorar diferentes áreas y encontrar la que mejor se adapte a tus intereses y habilidades.
+                <br>
+                <br>
+                Salarios competitivos: Debido a la alta demanda y la especialización requerida, los ingenieros en sistemas suelen recibir salarios competitivos y beneficios.
+                <br>
+                <br>
+                Oportunidades de crecimiento profesional: El campo de la tecnología está en constante evolución, lo que brinda oportunidades continuas para el aprendizaje y el crecimiento profesional. Los ingenieros en sistemas pueden seguir capacitándose y especializándose en nuevas tecnologías para mantenerse al día con las tendencias y avanzar en sus carreras.
+
+            </p>
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+    
+    
+
+    
+
+      
+    
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/cecyteuruapan20" class="icon"><img src="face.png" alt="Facebook"></a>
+                <a href="https://www.youtube.com/watch?v=2q9TMCKtk9I" class="icon"><img src="youtu.png" alt="Youtube"></a>
+                <a href="https://www.instagram.com/" class="icon"><img src="insta.png" alt="Instagram"></a>
+            </div>
+            <div class="user-options">
+                <a href="ayuda.html">Ayuda</a>
+            </div>
+        </div>
+        <p class="copyright">© 2024 - Todos los derechos reservados</p>
+        <p class="copyright">by: Ulises, Tito</p>
+    </footer>
+
+  <!-- Enlace al archivo JavaScript para comportamiento interactivo -->
+    <script src="scriptProg.js"></script>
+    <script src="carru.js"></script>
+
+</body>
+</html>
+
+
+
